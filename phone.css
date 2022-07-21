@@ -1,0 +1,28 @@
+/* Boxes */
+.columns{
+    grid-template-columns: auto;
+    justify-content: center;
+    padding-left: 180px;
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 60px;
+}
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    color: yellow;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.box p{
+    color: white;
+    font-size: 1.1rem;
+}
